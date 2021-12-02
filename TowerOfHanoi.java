@@ -26,7 +26,8 @@ final class TowerOfHanoi {
             System.out.println("Move disk 1 from peg " + startPeg + " to peg "
                                + endPeg);
         } else {
-        // ... solve here
+            // ... solve here
+            ;
         }
     }
 
