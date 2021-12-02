@@ -27,7 +27,8 @@ final class TowerOfHanoi {
                                + endPeg);
         } else {
             // ... solve here
-            ;
+            // assert true is just a place holder for the linter
+            assert true;
         }
     }
 
