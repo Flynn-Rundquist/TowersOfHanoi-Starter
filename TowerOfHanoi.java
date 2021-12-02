@@ -2,7 +2,7 @@
 * This program solves
 * the Tower of Hanoi riddle.
 *
-* @author  Sean McLeod
+* @author  Mr Coxall
 * @version 1.0
 * @since   2021-05-11
 */
@@ -18,7 +18,7 @@ final class TowerOfHanoi {
     }
 
 
-    public static void hanoi(final int nOfDisks, final int startPeg,
+    static void hanoi(final int nOfDisks, final int startPeg,
                              final int endPeg) {
         // This function calculates where the disks should be placed in
         final int pegNumber = 6;
@@ -26,6 +26,8 @@ final class TowerOfHanoi {
             System.out.println("Move disk 1 from peg " + startPeg + " to peg "
                                + endPeg);
         } else {
+        // ... solve here
+        }
     }
 
 
