@@ -26,8 +26,10 @@ final class TowerOfHanoi {
             System.out.println("Move disk 1 from peg " + startPeg + " to peg "
                                + endPeg);
         } else {
-            // ... solve here
-            // assert true is just a place holder for the linter
+            hanoi(nOfDisks - 1, startPeg, pegNumber - startPeg - endPeg);
+            System.out.println("Move disk " + nOfDisks + " from peg " + startPeg
+                               + " to peg " + endPeg);
+            hanoi(nOfDisks - 1, pegNumber - startPeg - endPeg, endPeg);
             assert true;
         }
     }
